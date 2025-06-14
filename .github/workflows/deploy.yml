@@ -21,6 +21,10 @@ jobs:
         with:
           deno-version: v2.x
 
+      - name: Install dependencies
+        id: deno-install-deps
+        run: "deno install --lock"
+
       - name: Build step
         id: deno-build
         run: "deno task build"
