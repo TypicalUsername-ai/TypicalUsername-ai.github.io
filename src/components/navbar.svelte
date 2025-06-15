@@ -8,6 +8,7 @@
         NavHamburger,
     } from "flowbite-svelte";
     let activeUrl = $derived(page.url.pathname);
+    import { pages_schema } from "./pages";
 </script>
 
 <Navbar class="bg-primary-200">
@@ -20,6 +21,8 @@
     </NavBrand>
     <NavHamburger />
     <NavUl {activeUrl}>
-        <NavLi href="/">Home</NavLi>
+        {#each pages_schema as page}
+            <NavLi href={page.path}>{page.name}</NavLi>
+        {/each}
     </NavUl>
 </Navbar>

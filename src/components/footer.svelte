@@ -6,6 +6,8 @@
         FooterBrand,
         FooterLink,
     } from "flowbite-svelte";
+
+    import { pages_schema } from "./pages";
 </script>
 
 <Footer footerType="logo" class="bg-primary-200">
@@ -19,7 +21,9 @@
         <FooterLinkGroup
             class="mb-6 flex flex-wrap items-center text-sm text-gray-500 sm:mb-0 dark:text-gray-400"
         >
-            <FooterLink href="/">Home</FooterLink>
+            {#each pages_schema as page}
+                <FooterLink href={page.path}>{page.name}</FooterLink>
+            {/each}
         </FooterLinkGroup>
     </div>
     <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8 dark:border-gray-700" />
