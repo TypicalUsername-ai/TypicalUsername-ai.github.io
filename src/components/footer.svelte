@@ -8,7 +8,7 @@
     } from "flowbite-svelte";
 </script>
 
-<Footer footerType="logo">
+<Footer footerType="logo" class="bg-primary-200">
     <div class="sm:flex sm:items-center sm:justify-between">
         <FooterBrand
             href="/"

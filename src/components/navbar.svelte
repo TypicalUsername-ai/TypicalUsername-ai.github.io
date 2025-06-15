@@ -10,7 +10,7 @@
     let activeUrl = $derived(page.url.pathname);
 </script>
 
-<Navbar>
+<Navbar class="bg-primary-200">
     <NavBrand href="/">
         <img src="/hampter.jpg" class="me-3 h-6 sm:h-9" alt="Site logo" />
         <span
@@ -21,9 +21,5 @@
     <NavHamburger />
     <NavUl {activeUrl}>
         <NavLi href="/">Home</NavLi>
-        <NavLi href="/docs/components/navbar">Navbar</NavLi>
-        <NavLi href="/docs/components/accordion">Accordion</NavLi>
-        <NavLi href="/docs/components/alert">Alert</NavLi>
-        <NavLi href="/docs/components/avatar">Avatar</NavLi>
     </NavUl>
 </Navbar>
