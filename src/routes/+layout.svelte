@@ -8,8 +8,6 @@
 
 <div class="bg-primary-50 min-h-screen flex flex-col">
     <Navbar />
-    <div class="flex-grow p-1">
-        {@render children()}
-    </div>
+    {@render children()}
     <Footer />
 </div>
