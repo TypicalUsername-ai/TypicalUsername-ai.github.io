@@ -6,6 +6,7 @@
     "npm:@sveltejs/vite-plugin-svelte@5": "5.1.0_svelte@5.34.3__acorn@8.15.0_vite@6.3.5__picomatch@4.0.2",
     "npm:@tailwindcss/typography@~0.5.15": "0.5.16_tailwindcss@4.1.10",
     "npm:@tailwindcss/vite@4": "4.1.10_vite@6.3.5__picomatch@4.0.2",
+    "npm:flowbite-svelte-icons@^2.2.0": "2.2.0_svelte@5.34.3__acorn@8.15.0",
     "npm:flowbite-svelte@^1.6.8": "1.6.8_svelte@5.34.3__acorn@8.15.0_tailwindcss@4.1.10",
     "npm:flowbite@^3.1.2": "3.1.2",
     "npm:svelte-check@4": "4.2.1_svelte@5.34.3__acorn@8.15.0_typescript@5.8.3",
@@ -691,6 +692,14 @@
         "flowbite@2.5.2"
       ]
     },
+    "flowbite-svelte-icons@2.2.0_svelte@5.34.3__acorn@8.15.0": {
+      "integrity": "sha512-X+xZXeLaYS/NaybPonw1RGIIzmrExmCOrva62NPCXN52xGmJWqcSnnbHO4+iZsDD4V6EsDRqwH8tVq6t6SLLQg==",
+      "dependencies": [
+        "clsx",
+        "svelte",
+        "tailwind-merge@3.3.1"
+      ]
+    },
     "flowbite-svelte@1.6.8_svelte@5.34.3__acorn@8.15.0_tailwindcss@4.1.10": {
       "integrity": "sha512-6z0x4MVtxaXf6Ww6bIKH2sm75HXHvuvxdkVMloDxpYoJ/RbzAY2WcgPbh7+yXBL5b0fOEQFSyUvfB7ATs0OJww==",
       "dependencies": [
@@ -1087,6 +1096,7 @@
         "npm:@sveltejs/vite-plugin-svelte@5",
         "npm:@tailwindcss/typography@~0.5.15",
         "npm:@tailwindcss/vite@4",
+        "npm:flowbite-svelte-icons@^2.2.0",
         "npm:flowbite-svelte@^1.6.8",
         "npm:flowbite@^3.1.2",
         "npm:svelte-check@4",
