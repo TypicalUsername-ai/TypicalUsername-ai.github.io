@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
@@ -6,27 +8,33 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-primary-50: #fff5f2;
-  --color-primary-100: #fff1ee;
-  --color-primary-200: #ffe4de;
-  --color-primary-300: #ffd5cc;
-  --color-primary-400: #ffbcad;
-  --color-primary-500: #fe795d;
-  --color-primary-600: #ef562f;
-  --color-primary-700: #eb4f27;
-  --color-primary-800: #cc4522;
-  --color-primary-900: #a5371b;
+  --color-primary-50: #FFFDFA;
+  --color-primary-100: #FDFAF5;
+  --color-primary-200: #F8EEDF;
+  --color-primary-300: #F2DEC2;
+  --color-primary-400: #E8C999;
+  --color-primary-500: #DDB170;
+  --color-primary-600: #C7924A;
+  --color-primary-700: #A37436;
+  --color-primary-800: #7F5928;
+  --color-primary-900: #5A3E1D;
 
-  --color-secondary-50: #f0f9ff;
-  --color-secondary-100: #e0f2fe;
-  --color-secondary-200: #bae6fd;
-  --color-secondary-300: #7dd3fc;
-  --color-secondary-400: #38bdf8;
-  --color-secondary-500: #0ea5e9;
-  --color-secondary-600: #0284c7;
-  --color-secondary-700: #0369a1;
-  --color-secondary-800: #075985;
-  --color-secondary-900: #0c4a6e;
+  --color-secondary-50: #FDF8F0;
+  --color-secondary-100: #FAF1E0;
+  --color-secondary-200: #F5E2C1;
+  --color-secondary-300: #E8C999;
+  --color-secondary-400: #D9AC6A;
+  --color-secondary-500: #C78F45;
+  --color-secondary-600: #A87332;
+  --color-secondary-700: #855827;
+  --color-secondary-800: #62411D;
+  --color-secondary-900: #3F2A13;
+
+  --color-black: #000000;
+  --color-accent: #8E1616;
+
+  --font-family: "Titillium+Web";
+  --font-sans: "Titillium+Web" sans-serif; 
 }
 
 @source "../node_modules/flowbite-svelte/dist";
